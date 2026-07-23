@@ -1,0 +1,33 @@
+# Python
+myvenv/
+venv/
+.venv/
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# Streamlit
+.streamlit/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# HuggingFace
+.huggingface/

@@ -12,6 +12,9 @@ build/
 .streamlit/
 
 # Database
+chatbot.db
+chatbot.db-shm
+chatbot.db-wal
 *.db
 *.sqlite
 *.sqlite3

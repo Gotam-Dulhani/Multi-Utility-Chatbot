@@ -44,7 +44,7 @@ llm = ChatOpenAI(
     base_url="https://api.groq.com/openai/v1",
     max_retries=10,
 )
-embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+embeddings = HuggingFaceEmbeddings(model_name="paraphrase-multilingual-MiniLM-L12-v2")
 
 # -------------------
 # 2. PDF retriever store (global across all threads)

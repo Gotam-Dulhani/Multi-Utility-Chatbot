@@ -5,6 +5,7 @@ A powerful AI chatbot built with **LangGraph**, **LangChain**, **Groq**, **FAISS
 ## Features
 
 - PDF Upload & RAG: Upload any PDF and ask questions about its content
+- Multilingual Support: Handles Urdu, Arabic, French, Spanish, and 50+ languages via multilingual embeddings
 - Multi-Utility Tools: Web search (DuckDuckGo), calculator, and stock price lookup
 - Multi-Conversation Support: Create, switch, and delete past conversations
 - Clean Streaming UI: Real-time word-by-word streaming responses in Streamlit
@@ -17,7 +18,7 @@ A powerful AI chatbot built with **LangGraph**, **LangChain**, **Groq**, **FAISS
 |-----------|-----------|
 | LLM | Groq `llama-3.1-8b-instant` via ChatOpenAI |
 | Backend | LangGraph + LangChain |
-| Vector Store | FAISS + HuggingFace `all-MiniLM-L6-v2` |
+| Vector Store | FAISS + HuggingFace `paraphrase-multilingual-MiniLM-L12-v2` |
 | Frontend | Streamlit |
 | Database | SQLite (LangGraph checkpointing + thread titles) |
 | PDF Processing | PyPDFLoader + RecursiveCharacterTextSplitter |

@@ -1,6 +1,6 @@
-# Multi-Utility Chatbot
+# Multilingual PDF Assistant
 
-A powerful AI chatbot built with **LangGraph**, **LangChain**, **Groq**, **FAISS**, and **Streamlit**. Upload a PDF and chat with it using retrieval-augmented generation (RAG), or use built-in tools like web search, calculator, and live stock prices.
+A powerful AI chatbot built with **LangGraph**, **LangChain**, **Groq**, **FAISS**, and **Streamlit**. Upload a PDF and chat with it using retrieval-augmented generation (RAG) in **50+ languages** — including Urdu, Arabic, French, Spanish, and more. Also includes built-in tools like web search, calculator, and live stock prices.
 
 ## Features
 
@@ -23,12 +23,16 @@ A powerful AI chatbot built with **LangGraph**, **LangChain**, **Groq**, **FAISS
 | Database | SQLite (LangGraph checkpointing + thread titles) |
 | PDF Processing | PyPDFLoader + RecursiveCharacterTextSplitter |
 
+## Live Demo
+
+🔗 [Try it live on Streamlit Cloud](https://langgraph-pdf-assistant.streamlit.app/)
+
 ## Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/multi-utility-chatbot.git
-cd multi-utility-chatbot
+git clone https://github.com/Gotam-Dulhani/Multi-Utility-Chatbot.git
+cd Multi-Utility-Chatbot
 
 # Create virtual environment
 python -m venv myvenv

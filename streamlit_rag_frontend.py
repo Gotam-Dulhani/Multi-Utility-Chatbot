@@ -143,7 +143,7 @@ threads = [t for t in list(dict.fromkeys(st.session_state["chat_threads"])) if s
 selected_thread = None
 
 # ============================ Sidebar ============================
-st.sidebar.title("LangGraph PDF Chatbot")
+st.sidebar.title("Talk With Your Doc")
 
 if st.sidebar.button("New Chat", use_container_width=True):
     reset_chat()
@@ -221,7 +221,7 @@ if "thread_to_delete" in st.session_state and st.session_state["thread_to_delete
     del st.session_state["thread_to_delete"]
 
 # ============================ Main Layout ========================
-st.title("Multi Utility Chatbot")
+st.title("Talk With Your Doc")
 
 # Chat area
 for message in st.session_state["message_history"]:

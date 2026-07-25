@@ -1,4 +1,4 @@
-# Multilingual PDF Assistant
+# Talk With Your Doc
 
 A powerful AI chatbot built with **LangGraph**, **LangChain**, **Groq**, **FAISS**, and **Streamlit**. Upload a PDF and chat with it using retrieval-augmented generation (RAG) in **50+ languages** — including Urdu, Arabic, French, Spanish, and more. Also includes built-in tools like web search, calculator, and live stock prices.
 
